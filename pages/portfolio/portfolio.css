@@ -1,13 +1,16 @@
 .portfolio-container {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 20% 40% 20% 20%;
   grid-template-rows: auto;
   grid-template-areas: 
-    "title description thumbnails"
-    "skills description thumbnails"
-    "links links links";
+    "title description thumbnails links"
+    "skills description thumbnails links";
   column-gap: 10px;
   margin-bottom: 50px;
+}
+
+.last-item {
+  margin: 0;
 }
 
 .portfolio-title {
@@ -29,7 +32,7 @@
 .portfolio-description {
   grid-area: description;
   text-align: start;
-  font-size: 1.2em;
+  font-size: 1em;
   display: flex;
   align-items: flex-start;
 }
@@ -41,10 +44,22 @@
   grid-template-rows: 1fr 1fr;
   column-gap: 5px;
   row-gap: 5px;
-
 }
 
 .portfolio-thumbnails img {
-  width: 100%;
+  max-height: 50px;
+}
+
+.portfolio-links {
+  grid-area: links;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.portfolio-links a {
+  text-decoration: none;
+  font-size: 1em;
+  color: black;
 }
 

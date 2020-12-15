@@ -23,7 +23,6 @@ h2 {
 .info-container {
   grid-area: info;
   margin: 50px 50px;
-  padding: 0 50px;;
   display: flex;
   flex-direction: column;
   justify-content: center;
