@@ -22,7 +22,8 @@ h2 {
 
 .info-container {
   grid-area: info;
-  padding: 50px 100px;;
+  margin: 50px 50px;
+  padding: 0 50px;;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,6 +94,10 @@ h2 {
 
 .background-image {
   grid-area: image;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .background-image img {
@@ -101,7 +106,7 @@ h2 {
 
 .background-text {
   grid-area: text;
-  padding: 25px;
+  padding: 0 0 0 50px;
   text-align: start;
   display:flex;
   flex-direction: column;
@@ -109,12 +114,16 @@ h2 {
 }
 
 .background-text p {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin: 0;
 }
 
 .background-resume {
   grid-area: resume;
+}
+
+.background-resume i {
+  font-size: 40px;
 }
 
 
