@@ -1,0 +1,24 @@
+.skills {
+  margin: 2em 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.skills div i {
+  font-size: 40px;
+  text-align: center;
+}
+
+.skills div p {
+  margin: 5px 0;
+  text-align: center;
+  font-size: .9rem;
+}

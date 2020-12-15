@@ -1,0 +1,50 @@
+.portfolio-container {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "title description thumbnails"
+    "skills description thumbnails"
+    "links links links";
+  column-gap: 10px;
+  margin-bottom: 50px;
+}
+
+.portfolio-title {
+  grid-area: title;
+  font-size: 1.75em;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.portfolio-skills {
+  grid-area: skills;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.portfolio-description {
+  grid-area: description;
+  text-align: start;
+  font-size: 1.2em;
+  display: flex;
+  align-items: flex-start;
+}
+
+.portfolio-thumbnails {
+  grid-area: thumbnails;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 5px;
+  row-gap: 5px;
+
+}
+
+.portfolio-thumbnails img {
+  width: 100%;
+}
+
