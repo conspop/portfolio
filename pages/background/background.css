@@ -1,11 +1,16 @@
 .background-container {
   display:grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
   grid-template-rows: auto;
   grid-template-areas: 
-    "image text"
-    "image text"
-    "resume text";
+  "title title"
+  "image text"
+  "image text"
+  "resume resume";
+}
+
+.background-title {
+  grid-area: title;
 }
 
 .background-image {
@@ -26,19 +31,27 @@
   text-align: start;
   display:flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .background-text p {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   margin: 0;
 }
 
 .background-resume {
   grid-area: resume;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .background-resume i {
   font-size: 40px;
+  color: black;
+  margin-left: 10px;
 }
 
