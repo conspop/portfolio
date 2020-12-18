@@ -2,11 +2,14 @@ body {
   height: 100vh;
   width: 100vw;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #EEECE7;
+  color: #525252;
 }
 
 h1 {
   font-size: 4rem;
   margin: 0 0 40px 0;
+  color: #F97639;
 }
 
 h2 {
@@ -60,7 +63,7 @@ h3 {
 
 .nav-container a {
   text-decoration: none;
-  color: black;
+  color: #525252;
 }
 
 

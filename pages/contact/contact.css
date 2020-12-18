@@ -3,6 +3,10 @@
   flex-direction: column;
 }
 
+.contact-title {
+  color: #F97639;
+}
+
 .contact-links {
   display: flex;
   flex-direction: column;
@@ -17,7 +21,7 @@
 
 .contact-links a {
   text-decoration: none;
-  color: black;
+  color: #525252;
   font-size: 1.75rem;
 }
 

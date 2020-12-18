@@ -11,6 +11,7 @@
 
 .background-title {
   grid-area: title;
+  color: #F97639;
 }
 
 .background-image {
@@ -52,7 +53,7 @@
 
 .background-resume i {
   font-size: 40px;
-  color: black;
+  color: #525252;
   margin-left: 10px;
 }
 
@@ -68,8 +69,12 @@
 
 .background-resume a div p {
   font-size: 2rem;
-  color: black;
+  color: #525252;
   text-decoration: none;
   margin: 0;
+}
+
+strong {
+  color: #F97639;
 }
 
