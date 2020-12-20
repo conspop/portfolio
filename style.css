@@ -94,11 +94,12 @@ h3 {
 
   .info-container {
     margin: 0;
+    justify-content: flex-start;
   }
 
   .nav-container li {
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2rem;
   }
 
   .nav-container li a {
@@ -110,6 +111,14 @@ h3 {
 
   h1 {
     font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .info-container {
+    padding: 10px;
   }
 }
 

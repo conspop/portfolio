@@ -78,3 +78,38 @@ strong {
   color: #F97639;
 }
 
+@media screen and (max-width: 1115px) {
+  .background-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .background-title {
+    font-size: 3rem;
+    margin: 30px auto 15px; auto;
+  }
+
+  .background-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .background-image {
+    padding:10px;
+    max-width: 350px;
+    margin 0 auto;
+  }
+
+  .background-text {
+    margin: 15px auto;
+    padding:10px;
+    max-width: 500px;
+  }
+
+  .background-text p {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+
+}
+

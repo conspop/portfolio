@@ -29,3 +29,9 @@
   font-size: 40px;
   margin-right: 10px;
 }
+
+@media screen and (max-width: 1115px) {
+  .contact-title {
+    margin: 30px auto 15px auto;
+  }
+}

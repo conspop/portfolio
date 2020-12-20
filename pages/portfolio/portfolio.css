@@ -38,6 +38,10 @@
   margin: 20px 0 0 0;
 }
 
+.portfolio-skills i {
+  margin: 5px;
+}
+
 .portfolio-description {
   grid-area: description;
   text-align: start;
@@ -86,5 +90,44 @@
 .portfolio-links i {
   margin-right: 10px;
   font-size: 25px;
+}
+
+@media screen and (max-width: 1115px) {
+  .portfolio-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio-title {
+    margin: 30px auto 15px auto;
+  }
+
+  .portfolio-title h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .portfolio-description {
+    padding: 10px;
+    font-size: 1.5rem;
+    max-width: 500px;
+  }
+
+  .portfolio-skills {
+    font-size: 30px;
+  }
+
+  .portfolio-video {
+    margin: 0 auto 15px auto;
+  }
+
+  .portfolio-links {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+
 }
 
