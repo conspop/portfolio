@@ -23,9 +23,34 @@
 .portfolio-title {
   grid-area: title;
   font-size: 1.75em;
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  justify-items: center;
   margin-bottom: 30px;
+  color: #F97639;
+}
+
+.portfolio-title-left {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+.portfolio-title-right {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 1.2rem;
+}
+
+.portfolio-title i {
+  margin: 0 5px;
+}
+
+.portfolio-title a {
+  text-decoration: none;
+  color: #F97639;
 }
 
 .portfolio-skills {
@@ -113,6 +138,7 @@
     padding: 10px;
     font-size: 1.5rem;
     max-width: 500px;
+    text-align: center;
   }
 
   .portfolio-skills {
@@ -127,6 +153,14 @@
     display: flex;
     flex-direction: column;
     font-size: 1.2rem;
+  }
+
+  .portfolio-title-left {
+    font-size: 1rem;
+  }
+  
+  .portfolio-title-right {
+    font-size: 1rem;
   }
 
 }
